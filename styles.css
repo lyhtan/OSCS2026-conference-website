@@ -25,6 +25,10 @@
 
 /* ---------- General typography ---------- */
 
+.quarto-title-block {
+  display: none;
+}
+
 body {
   background: var(--bg);
   color: var(--text);

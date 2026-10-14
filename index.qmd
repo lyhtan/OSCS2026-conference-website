@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "OSCS 2026 - Home"
 page-layout: full
 ---
 
