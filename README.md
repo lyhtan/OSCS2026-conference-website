@@ -1,84 +1,49 @@
-# Quarto conference website starter
+# OSCS 2026 Conference Website
+This repository contains the temporary website for the **OSCS 2026 Conference**.
 
-This is a minimal four-page Quarto website for a temporary research conference.
+The site is built with [Quarto](https://quarto.org/) and published as a static website.
 
-## Pages
+## Site structure
+The main pages are:
+- `index.qmd` — conference landing page, called "Home" in navbar
+- `programme.qmd` — programme and schedule
+- `venue.qmd` — venue information
+- `contact.qmd` — contact information
 
-- `index.qmd` — landing page
-- `signup.qmd` — registration
-- `submit.qmd` — abstract submission
-- `schedule.qmd` — programme
-- `_quarto.yml` — site-wide navigation and configuration
-- `styles.css` — fonts, colours, widths, footer logos, and responsive styling
+Site-wide configuration and styling are handled by:
+- `_quarto.yml` — Quarto website configuration and navigation
+- `styles.css` — custom styling
+- `images/` — images, logos, and other visual assets
 
-## 1. Add your images
+The rendered website is written to:
+- `docs/` — generated HTML and site assets used for publication
 
-Put your existing header image here:
-
-    images/header.png
-
-Put collaborator logos here:
-
-    images/logos/
-
-The starter configuration currently expects:
-
-    logo-1.png
-    logo-2.png
-    logo-3.png
-
-Either rename your actual PNGs to those names or edit `_quarto.yml` to match their filenames.
-
-## 2. Open in RStudio
-
-Open this folder as a project/folder in RStudio.
-
-If Quarto is installed, either use RStudio's Preview/Render controls or run:
+## Local preview
+From the project directory, run:
 
     quarto preview
 
-from the Terminal.
+This starts a local development server and automatically refreshes the site when files are changed.
 
-Quarto will open a local version of the website in your browser and refresh it when files change.
-
-## 3. Edit the visual design
-
-Start in `styles.css`.
-
-The variables near the top control:
-
-- page background
-- text colour
-- accent colour
-- navigation/footer backgrounds
-- maximum content width
-- body font
-- heading font
-
-## 4. Edit conference information
-
-Replace the placeholder conference name, dates, city, text, email address, and external form links in the `.qmd` files.
-
-Also replace `Conference Name` in `_quarto.yml`.
-
-## 5. Render the production site
-
-Run:
+## Render the site
+To generate the production version of the website, run:
 
     quarto render
 
-The generated site will appear in the `docs/` folder. This is convenient for GitHub Pages publishing from the repository's `/docs` directory.
+The rendered site will be placed in the `docs/` directory.
 
-## 6. Next steps
+## Updating the website
+After making changes:
 
-Once the local version looks right, the usual next steps are:
+    quarto render
+    git add .
+    git commit -m "Describe your changes"
+    git push
 
-1. create a GitHub repository;
-2. push this folder to GitHub;
-3. enable GitHub Pages using the `/docs` folder;
-4. test the temporary `github.io` address;
-5. connect the conference subdomain after the site is working.
+The published website is updated from the rendered files in `docs/`.
 
-## Notes
+## Project file
+`OSCS2026-conference-website.Rproj` can be used to open the project directly in RStudio.
 
-The footer uses root-relative image paths (`/images/...`) because Quarto recommends root-relative paths for shared website footer/header content. If you later deploy under a GitHub Pages project subpath rather than a custom domain, we can adjust this if necessary.
+## License
+Website and content is published CC BY 4.0, with exception for logos in footer.
