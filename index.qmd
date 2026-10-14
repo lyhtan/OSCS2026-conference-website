@@ -1,0 +1,125 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero}
+<img src="images/header.png" alt="Conference header image" class="hero-image">
+:::
+
+::: {.framed-section style="text-align: center;"}
+# **Welcome to this year's OSCS Conference <br> and annual OSCS meeting!**
+<span class="large-text">
+1 December 2026 · Campus Valla, Linköping University, Sweden
+</span>
+<br>
+
+[**Sign up**](https://forms.cloud.microsoft/e/QcaNMtq8yQ){.btn .btn-primary .btn-lg .big-button target="_blank"}
+<br><small>
+Registration and attendance is free of charge.
+Lunch is provided.
+</small>
+:::
+
+::: {.two-column-sections}
+
+::: {.framed-section}
+
+## **Invited speakers**
+
+### Managing Open, Collaborative, and Reproducible Projects
+**Timothy J. Luke**
+<br>
+<small>
+Department of Psychology, University of Gothenburg
+</small>
+
+### The Future of Open Science
+**Gustav Nilsonne**
+<br>
+<small>
+Department of Clinical Neuroscience, Karolinska Institutet
+</small>
+
+
+[**Full programme**](programme.qmd){.btn .btn-primary .btn-lg}
+
+:::
+
+::: {.framed-section}
+
+## **Submit plenary talk abstracts!**
+
+We offer 4 spots for plenary talks. The talks will be 20 minutes each, including time for questions. Please submit your talk proposals using the link below. We will select the plenary talks in the first week of November, so your talk will be considered as long as it’s submitted by then. We will prioritize submissions that align with the theme of the conference.
+
+[**Submit a plenary talk**](https://forms.cloud.microsoft/e/xibh2G4fZf){.btn .btn-primary .btn-lg target="_blank"}
+
+:::
+
+:::
+
+::: {.framed-section}
+
+::: {.important-dates}
+
+## **Important dates**
+
+::: {.date-item}
+::: {.date-date}
+**NOW!**
+:::
+
+::: {.date-event}
+Plenary talk submissions open<br>
+Conference registration open
+:::
+:::
+
+::: {.date-item}
+::: {.date-date}
+**31 October**
+:::
+
+::: {.date-event}
+Plenary talk submission deadline
+:::
+:::
+
+::: {.date-item}
+::: {.date-date}
+**30 November**
+:::
+
+::: {.date-event}
+Optional Hackathon: Open Research Project Management by the HOSS Lab<br>
+Networking / Conference dinner
+:::
+:::
+
+::: {.date-item}
+::: {.date-date}
+**1 December**
+:::
+
+::: {.date-event}
+OSCS Conference & Annual OSCS Meeting
+:::
+:::
+
+:::
+:::
+
+::: {.framed-section}
+## **HOSSLab Hackathon** <br>  Monday November 30th
+
+On the Monday before the conference, the HOSSLab will host a hackathon titled: “Managing Open Projects After OSF Changes”. The aim of the hackathon is to prepare concise guidance for researchers. We will consider different research scenarios involving open science practices and collaboration on a smaller and larger scale. Find more information on the Programme page!
+
+[**Full programme**](programme.qmd){.btn .btn-primary .btn-lg}
+:::
+
+::: {.framed-section}
+## **Networking/Conference Dinner**
+After the HOSSLab Hackathon (ends at around 18:00) on **Monday 30th**, we meet up at restaurant/bar *Pepa Deli* in Linköping town center. Find more information on the Programme page!
+
+[**Full programme**](programme.qmd){.btn .btn-primary .btn-lg}
+:::

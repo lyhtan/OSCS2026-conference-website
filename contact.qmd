@@ -1,0 +1,15 @@
+::: {.hero}
+<img src="images/header.png" alt="Conference header image" class="hero-image">
+:::
+
+::: {.framed-section}
+
+## **Contact**
+
+If you have any questions or concerns regarding the conference or hackathon, please contact **Marta Topor** at marta.topor[at]liu.com
+
+Questions and concerns regarding the Open Science Community Sweden network can be directed towards the two current coordinators: <br>
+**Rickard Carlsson**, rickard.carlsson[at]lnu.se <br>
+**Natalie Hyltse**, natalie.hyltse[at]lnu.se
+
+:::

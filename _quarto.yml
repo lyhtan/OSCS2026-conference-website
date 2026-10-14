@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: programme.qmd
+        text: Programme
+      - href: venue.qmd
+        text: Venue
+      - href: contact.qmd
+        text: Contact
+
+  page-footer:
+    border: false
+    center: |
+      <div class="footer-logos">
+        <img src="/images/logos/logo-1.png" alt="Linköping University">
+        <img src="/images/logos/logo-2.png" alt="Open Science Community Sweden">
+        <img src="/images/logos/logo-3.png" alt="HOSSLab">
+        <img src="/images/logos/logo-4.png" alt="Swedish Reproducibility Network">
+      </div>
+      <div class="footer-note">
+        OSCS Conference · 2026
+      </div>
+      <div class="footer-note">
+        Website by Natalie Hyltse
+      </div>
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true

@@ -1,0 +1,14 @@
+# Quarto/RStudio
+/.quarto/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+# Ran into issues at the end, fixed it with new user file, thus:
+.Rproj.user-backup/
+
+# OS
+.DS_Store
+Thumbs.db
+
+**/*.quarto_ipynb
