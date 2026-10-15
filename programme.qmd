@@ -2,7 +2,9 @@
 title: "OSCS 2026 - Programme"
 ---
 ::: {.hero}
-<img src="images/header.png" alt="Conference header image" class="hero-image">
+<a href="index.qmd">
+  <img src="images/header.png" alt="Conference header image" class="hero-image">
+</a>
 :::
 
 # **Programme**

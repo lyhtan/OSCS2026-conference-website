@@ -151,6 +151,14 @@ main.content {
   margin-right: calc(50% - 50vw);
 }
 
+.hero a {
+  display: block;
+}
+
+.hero a:hover {
+  opacity: 0.98;
+}
+
 .hero-image {
   display: block;
   width: 100%;
@@ -259,12 +267,24 @@ table.table thead th {
   font-weight: 700;
 }
 
+/* ---------- Interactive map ---------- */
+
+.venue-map {
+  max-width: 100%;
+}
+
 /* ---------- Footer logos ---------- */
 
 .nav-footer {
+  display: block !important;
   background: var(--footer-bg);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.nav-footer-center {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
 }
 
 .footer-logos {
@@ -272,8 +292,9 @@ table.table thead th {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1rem 1rem;
+  gap: 1rem;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .footer-logos img {
@@ -297,8 +318,55 @@ table.table thead th {
     padding-top: 2rem;
   }
   
+  h1 {
+    font-size: 2rem;
+    line-height: 0.95;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+  
+  .large-text {
+    font-size: 1.2rem;
+    line-height: 0.5;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .btn-lg {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.1rem;
+  }
+  
+  .big-button {
+    font-size: 1.6rem;
+    padding: 0.8rem 1.3rem;
+  }
+  
+  .btn,
+  .btn-lg,
+  .big-button {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   .two-column-sections {
     grid-template-columns: 1fr;
+  }
+  
+  .venue-map {
+    width: 100%;
+    height: 280px;
   }
 
   .footer-logos {
@@ -306,8 +374,9 @@ table.table thead th {
   }
 
   .footer-logos img {
-    max-width: 125px;
-    max-height: 55px;
+    max-width: 180px;
+    max-height: none;
+  }
     
   .date-item {
     grid-template-columns: 1fr;

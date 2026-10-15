@@ -4,7 +4,9 @@ page-layout: full
 ---
 
 ::: {.hero}
-<img src="images/header.png" alt="Conference header image" class="hero-image">
+<a href="index.qmd">
+  <img src="images/header.png" alt="Conference header image" class="hero-image">
+</a>
 :::
 
 ::: {.framed-section style="text-align: center;"}
@@ -70,8 +72,8 @@ We offer 4 spots for plenary talks. The talks will be 20 minutes each, including
 :::
 
 ::: {.date-event}
-Plenary talk submissions open<br>
-Conference registration open
+• Plenary talk submissions open<br>
+• Conference registration open
 :::
 :::
 
@@ -81,7 +83,7 @@ Conference registration open
 :::
 
 ::: {.date-event}
-Plenary talk submission deadline
+• Plenary talk submission deadline
 :::
 :::
 
@@ -91,8 +93,8 @@ Plenary talk submission deadline
 :::
 
 ::: {.date-event}
-Optional Hackathon: Open Research Project Management by the HOSS Lab<br>
-Networking / Conference dinner
+• Optional Hackathon: Open Research Project Management by the HOSS Lab<br>
+• Networking / Conference dinner
 :::
 :::
 
@@ -102,7 +104,7 @@ Networking / Conference dinner
 :::
 
 ::: {.date-event}
-OSCS Conference & Annual OSCS Meeting
+• OSCS Conference & Annual OSCS Meeting
 :::
 :::
 

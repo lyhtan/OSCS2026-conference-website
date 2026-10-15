@@ -4,7 +4,9 @@ page-layout: full
 ---
 
 ::: {.hero}
-<img src="images/header.png" alt="Conference header image" class="hero-image">
+<a href="index.qmd">
+  <img src="images/header.png" alt="Conference header image" class="hero-image">
+</a>
 :::
 
 ::: {.framed-section}
@@ -13,7 +15,18 @@ page-layout: full
 The conference will be hosted at the Linköping University campus, in Linköping. The venue building is called the **Key House** and it’s a short walk from the bus stop **Nobeltorget**. You can get bus no 4 from Linköping central station to Nobeltorget. The meeting will be in room **KY24**, which is on the ground floor, to the right-hand side after the entrance.
 
 ::: {style="text-align: center;"}
-<iframe width="600" height="420" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://use.mazemap.com/embed.html#v=1&amp;campusid=742&amp;zlevel=2&amp;center=15.578338,58.395893&amp;zoom=18&amp;sharepoitype=identifier&amp;sharepoi=E0007044%3A2208&amp;utm_medium=iframe" style="border:1px solid grey" allow="geolocation" title="Map of LiU campus">
+<iframe 
+  class="venue-map"
+  width="600"
+  height="420"
+  frameBorder="0"
+  scrolling="no"
+  marginHeight="0"
+  marginWidth="0"
+  src="https://use.mazemap.com/embed.html#v=1&amp;campusid=742&amp;zlevel=2&amp;center=15.578338,58.395893&amp;zoom=18&amp;sharepoitype=identifier&amp;sharepoi=E0007044%3A2208&amp;utm_medium=iframe"
+  style="border:1px solid grey"
+  allow="geolocation"
+  title="Map of LiU campus">
 </iframe>
 :::
 

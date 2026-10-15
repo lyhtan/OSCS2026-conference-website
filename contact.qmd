@@ -2,8 +2,10 @@
 title: "OSCS 2026 - Contact"
 ---
 
-::: {.hero}
-<img src="images/header.png" alt="Conference header image" class="hero-image">
+:::: {.hero}
+<a href="index.qmd">
+  <img src="images/header.png" alt="Conference header image" class="hero-image">
+</a>
 :::
 
 ::: {.framed-section}
